@@ -1,0 +1,362 @@
+/* Genel stil */
+body {
+    font-family: 'Comic Sans MS', cursive;
+    background-color: #F0F4F8;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #4A4A4A;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.units-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.unit-card, .exercise-card {
+    background-color: #A7C7E7;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.unit-card:hover, .exercise-card:hover {
+    transform: scale(1.05);
+}
+
+.unit-card img, .exercise-card img {
+    max-width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.unit-card h2, .exercise-card h2 {
+    margin-top: 10px;
+    color: #4A4A4A;
+}
+
+.back-button {
+    background-color: #4A4A4A;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.back-button:hover {
+    background-color: #666;
+}
+
+/* Kelime Bulma Egzersizi */
+.wordContainer {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.wordImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin: 20px;
+}
+
+.option {
+    background-color: #E6F2FF;
+    color: #4A90E2;
+    border: 2px solid #4A90E2;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.option:hover {
+    transform: scale(1.05);
+}
+
+.option.active {
+    border-color: #FFD700;
+    background-color: #FFFDE7;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}
+
+.option.correct {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.option.wrong {
+    background-color: #F44336;
+    color: white;
+}
+
+/* Kontrol ve Sonraki Butonları */
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #4A90E2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #357ABD;
+}
+
+button:disabled {
+    background-color: #CCCCCC;
+    cursor: not-allowed;
+}
+/* Kelime Yazma Egzersizi - Input Alanı */
+#word-write-page input[type="text"] {
+    padding: 10px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: 2px solid #4a90e2;
+    width: 100%;
+    max-width: 300px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+#word-write-page input[type="text"]:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+/* Ses butonunun stilini belirliyoruz */
+.speak-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.speak-button:hover {
+    background-color: #45a049;
+}
+/* sentenceComplete için özel stiller */
+.sentence-container {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.shuffled-words {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.shuffled-word {
+    padding: 8px 12px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: default;
+    user-select: none;
+}
+
+/* Cümle Oluşturma Egzersizi için özel stiller */
+
+.sentence-container {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.shuffled-words {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.shuffled-word {
+    padding: 8px 12px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.3s;
+}
+
+.shuffled-word:hover {
+    background-color: #dce7f5;
+    transform: scale(1.05);
+}
+
+.used-word {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+
+/* Kullanıcı tarafından oluşturulan cümle alanı */
+.result-sentence-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    justify-content: center;
+}
+
+.result-word {
+    padding: 8px 12px;
+    background-color: #d0f0d0;
+    border: 1px solid #a0c0a0;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.result-word:hover {
+    background-color: #c8e6c8;
+    transform: scale(1.05);
+}
+
+/* Cümle görseli */
+#sentenceImageContainer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#sentenceImage {
+    max-width: 100%;
+    max-height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Doğru ve Yanlış Cevaplar */
+#resultMessageComplete {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Button Styling */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+/* Görsel alanı */
+#sentenceImageContainer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#sentenceImage {
+    max-width: 100%;
+    max-height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Kullanıcı tarafından oluşturulan cümle alanı */
+.result-sentence-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    justify-content: center;
+}
+/* Cümle Tamamlama Egzersizi için özel stiller */
+#sentence-format-page {
+    text-align: center;
+    padding: 20px;
+}
+
+#sentenceImageContainerFormat {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#sentenceImageFormat {
+    max-width: 100%;
+    max-height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.sentence-container {
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.input-container {
+    margin: 20px 0;
+}
+
+#missingWordInput {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+#missingWordInput:focus {
+    border-color: #4CAF50;
+}
+
+#resultMessageFormat {
+    margin-top: 20px;
+    font-size: 18px;
+}
+

@@ -1,0 +1,92 @@
+{
+    "units": [
+        {
+            
+            "unitName": "Unit-3: My Week",
+            "unitImage": "my_week.jpeg",
+            "words": [
+                { "english": "get up", "turkish": "kalkmak", "image": "get_up.jpeg" },
+                { "english": "get dressed", "turkish": "giyinmek", "image": "get_dressed.jpeg" },
+                { "english": "have breakfast", "turkish": "kahvaltı yapmak", "image": "have_breakfast.jpeg" },
+                { "english": "go to school", "turkish": "okula gitmek", "image": "go_to_school.jpeg" },
+                { "english": "have lunch", "turkish": "öğle yemeği yemek", "image": "have_lunch.jpeg" },
+                { "english": "do homework", "turkish": "ödev yapmak", "image": "do_homework.jpeg" },
+                { "english": "have dinner", "turkish": "akşam yemeği yemek", "image": "have_dinner.jpeg" },
+                { "english": "go to bed", "turkish": "yatmak", "image": "go_to_bed.jpeg" },
+                { "english": "burger", "turkish": "hamburger", "image": "burger.jpeg" },
+                { "english": "chips", "turkish": "patates kızartması", "image": "chips.jpeg" },
+                { "english": "chicken", "turkish": "tavuk", "image": "chicken.jpeg" },
+                { "english": "hot dog", "turkish": "sosisli sandviç", "image": "hot_dog.jpeg" },
+                { "english": "ice cream", "turkish": "dondurma", "image": "ice_cream.jpeg" },
+                { "english": "juice", "turkish": "meyve suyu", "image": "juice.jpeg" },
+                { "english": "milk", "turkish": "süt", "image": "milk.jpeg" },
+                { "english": "pizza", "turkish": "pizza", "image": "pizza.jpeg" },
+                { "english": "rice", "turkish": "pilav", "image": "rice.jpeg" },
+                { "english": "salad", "turkish": "salata", "image": "salad.jpeg" },
+                { "english": "steak", "turkish": "biftek, et", "image": "steak.jpeg" },
+                { "english": "tomatoes", "turkish": "domates", "image": "tomatoes.jpeg" },
+                { "english": "water", "turkish": "su", "image": "water.jpeg" },
+                { "english": "week", "turkish": "hafta", "image": "week.jpeg" },
+                { "english": "days of the week", "turkish": "haftanın günleri", "image": "days_of_the_week.jpeg" },
+                { "english": "Monday", "turkish": "Pazartesi", "image": "Monday.jpeg" },
+                { "english": "Tuesday", "turkish": "Salı", "image": "Tuesday.jpeg" },
+                { "english": "Wednesday", "turkish": "Çarşamba", "image": "Wednesday.jpeg" },
+                { "english": "Thursday", "turkish": "Perşembe", "image": "Thursday.jpeg" },
+                { "english": "Friday", "turkish": "Cuma", "image": "Friday.jpeg" },
+                { "english": "Saturday", "turkish": "Cumartesi", "image": "Saturday.jpeg" },
+                { "english": "Sunday", "turkish": "Pazar", "image": "Sunday.jpeg" },
+                { "english": "morning", "turkish": "sabah", "image": "morning.jpeg" },
+                { "english": "evening", "turkish": "akşam", "image": "evening.jpeg" },
+                { "english": "cellar", "turkish": "kiler, mahzen", "image": "cellar.jpeg" },
+                { "english": "fire", "turkish": "ateş", "image": "fire.jpeg" },
+                { "english": "painting", "turkish": "resim (tablo)", "image": "painting.jpeg" },
+                { "english": "safe", "turkish": "güvenli", "image": "safe.jpeg" },
+                { "english": "true", "turkish": "doğru", "image": "true.jpeg" },
+                { "english": "promise", "turkish": "söz vermek", "image": "promise.jpeg" },
+                { "english": "after school club", "turkish": "okul sonrası kulübü", "image": "after_school_club.jpeg" },
+                { "english": "late", "turkish": "geç", "image": "late.jpeg" },
+                { "english": "adverbs of frequency", "turkish": "sıklık zarfları", "image": "adverbs_of_frequency.jpeg" },
+                { "english": "always", "turkish": "her zaman", "image": "always.jpeg" },
+                { "english": "often", "turkish": "sık sık", "image": "often.jpeg" },
+                { "english": "sometimes", "turkish": "bazen", "image": "sometimes.jpeg" },
+                { "english": "never", "turkish": "asla", "image": "never.jpeg" },
+                { "english": "sandwich", "turkish": "sandviç", "image": "sandwich.jpeg" },
+                { "english": "lunchbox", "turkish": "beslenme çantası", "image": "lunchbox.jpeg" }
+            ],
+            "sentences": [
+                { "english": "I get up at seven.", "turkish": "Saat yedide kalkarım.", "image": "I_get_up_at_seven.jpeg" },
+                { "english": "I get dressed.", "turkish": "Giyinirim.", "image": "I_get_dressed.jpeg" },
+                { "english": "I have breakfast at eight.", "turkish": "Saat sekizde kahvaltı yaparım.", "image": "I_have_breakfast_at_eight.jpeg" },
+                { "english": "I go to school at nine.", "turkish": "Saat dokuzda okula giderim.", "image": "I_go_to_school_at_nine.jpeg" },
+                { "english": "I have lunch at twelve.", "turkish": "Saat on ikide öğle yemeği yerim.", "image": "I_have_lunch_at_twelve.jpeg" },
+                { "english": "I do my homework after school.", "turkish": "Okuldan sonra ödevimi yaparım.", "image": "I_do_my_homework_after_school.jpeg" },
+                { "english": "I have dinner at seven.", "turkish": "Saat yedide akşam yemeği yerim.", "image": "I_have_dinner_at_seven.jpeg" },
+                { "english": "I go to bed at ten.", "turkish": "Saat onda yatarım.", "image": "I_go_to_bed_at_ten.jpeg" }
+            ]
+        },
+        {
+            
+            "unitName": "Unit-4: My family and my friends",
+            "unitImage": "my_family_and_my_friends.jpeg",
+            "words": [
+                { "english": "get up", "turkish": "kalkmak", "image": "get_up.jpeg" },
+                { "english": "get dressed", "turkish": "giyinmek", "image": "get_dressed.jpeg" },
+                { "english": "have breakfast", "turkish": "kahvaltı yapmak", "image": "have_breakfast.jpeg" },
+                { "english": "go to school", "turkish": "okula gitmek", "image": "go_to_school.jpeg" },
+                { "english": "have lunch", "turkish": "öğle yemeği yemek", "image": "have_lunch.jpeg" },
+                { "english": "do homework", "turkish": "ödev yapmak", "image": "do_homework.jpeg" },
+                { "english": "have dinner", "turkish": "akşam yemeği yemek", "image": "have_dinner.jpeg" }
+            ],
+            "sentences": [
+                { "english": "I get up at seven.", "turkish": "Saat yedide kalkarım.", "image": "I_get_up_at_seven.jpeg" },
+                { "english": "I get dressed.", "turkish": "Giyinirim.", "image": "I_get_dressed.jpeg" },
+                { "english": "I have breakfast at eight.", "turkish": "Saat sekizde kahvaltı yaparım.", "image": "I_have_breakfast_at_eight.jpeg" },
+                { "english": "I go to school at nine.", "turkish": "Saat dokuzda okula giderim.", "image": "I_go_to_school_at_nine.jpeg" },
+                { "english": "I have lunch at twelve.", "turkish": "Saat on ikide öğle yemeği yerim.", "image": "I_have_lunch_at_twelve.jpeg" },
+                { "english": "I do my homework after school.", "turkish": "Okuldan sonra ödevimi yaparım.", "image": "I_do_my_homework_after_school.jpeg" },
+                { "english": "I have dinner at seven.", "turkish": "Saat yedide akşam yemeği yerim.", "image": "I_have_dinner_at_seven.jpeg" },
+                { "english": "I go to bed at ten.", "turkish": "Saat onda yatarım.", "image": "I_go_to_bed_at_ten.jpeg" }
+            ]
+        }
+    ]
+}
