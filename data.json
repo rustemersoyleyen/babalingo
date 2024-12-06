@@ -87,7 +87,7 @@
                 { "english": "I have dinner at seven.", "turkish": "Saat yedide akşam yemeği yerim.", "image": "I_have_dinner_at_seven.jpeg" },
                 { "english": "I go to bed at ten.", "turkish": "Saat onda yatarım.", "image": "I_go_to_bed_at_ten.jpeg" }
             ]
-        }
+        },
         {
             "unitName":"Let's Egzersizi",
             "unitImage":"lets_egzersiz.jpeg",            
@@ -95,199 +95,199 @@
                 {
                 "english": "revise",
                 "turkish": "tekrar yapmak",
-                "image": "revise.png"
+                "image": "revise.jpeg"
                 },
                 {
                 "english": "ask",
                 "turkish": "sormak",
-                "image": "ask.png"
+                "image": "ask.jpeg"
                 },
                 {
                 "english": "look",
                 "turkish": "bakmak",
-                "image": "look.png"
+                "image": "look.jpeg"
                 },
                 {
                 "english": "hide",
                 "turkish": "saklamak",
-                "image": "hide.png"
+                "image": "hide.jpeg"
                 },
                 {
                 "english": "play",
                 "turkish": "oynamak",
-                "image": "play.png"
+                "image": "play.jpeg"
                 },
                 {
                 "english": "catch",
                 "turkish": "yakalamak",
-                "image": "catch.png"
+                "image": "catch.jpeg"
                 },
                 {
                 "english": "wash",
                 "turkish": "yıkamak",
-                "image": "wash.png"
+                "image": "wash.jpeg"
                 },
                 {
                 "english": "phone",
                 "turkish": "telefon etmek",
-                "image": "phone.png"
+                "image": "phone.jpeg"
                 },
                 {
                 "english": "climb",
                 "turkish": "tırmanmak",
-                "image": "climb.png"
+                "image": "climb.jpeg"
                 },
                 {
                 "english": "run",
                 "turkish": "koşmak",
-                "image": "run.png"
+                "image": "run.jpeg"
                 },
                 {
                 "english": "test",
                 "turkish": "sınav",
-                "image": "test.png"
+                "image": "test.jpeg"
                 },
                 {
                 "english": "pizza",
                 "turkish": "pizza",
-                "image": "pizza.png"
+                "image": "pizza.jpeg"
                 },
                 {
                 "english": "mobile",
                 "turkish": "cep telefonu",
-                "image": "mobile.png"
+                "image": "mobile.jpeg"
                 },
                 {
                 "english": "car keys",
                 "turkish": "araba anahtarları",
-                "image": "car_keys.png"
+                "image": "car_keys.jpeg"
                 },
                 {
                 "english": "teacher",
                 "turkish": "öğretmen",
-                "image": "teacher.png"
+                "image": "teacher.jpeg"
                 },
                 {
                 "english": "drawer",
                 "turkish": "çekmece",
-                "image": "drawer.png"
+                "image": "drawer.jpeg"
                 },
                 {
                 "english": "mouse",
                 "turkish": "fare",
-                "image": "mouse.png"
+                "image": "mouse.jpeg"
                 },
                 {
                 "english": "Maths problem",
                 "turkish": "matematik sorunu",
-                "image": "maths_problem.png"
+                "image": "maths_problem.jpeg"
                 },
                 {
                 "english": "birthday",
                 "turkish": "doğum günü",
-                "image": "birthday.png"
+                "image": "birthday.jpeg"
                 },
                 {
                 "english": "vase",
                 "turkish": "vazo",
-                "image": "vase.png"
+                "image": "vase.jpeg"
                 },
                 {
                 "english": "rabbit",
                 "turkish": "tavşan",
-                "image": "rabbit.png"
+                "image": "rabbit.jpeg"
                 },
                 {
                 "english": "turtle",
                 "turkish": "kaplumbağa",
-                "image": "turtle.png"
+                "image": "turtle.jpeg"
                 },
                 {
                 "english": "tree",
                 "turkish": "ağaç",
-                "image": "tree.png"
+                "image": "tree.jpeg"
                 },
                 {
                 "english": "car",
                 "turkish": "araba",
-                "image": "car.png"
+                "image": "car.jpeg"
                 },
                 {
                 "english": "garage",
                 "turkish": "garaj",
-                "image": "garage.png"
+                "image": "garage.jpeg"
                 }
             ],
             "sentences": [
                 {
                 "english": "There’s an English test tomorrow.",
                 "turkish": "Yarın bir İngilizce sınavı var.",
-                "image": "english_test.png"
+                "image": "english_test.jpeg"
                 },
                 {
                 "english": "We are really hungry.",
                 "turkish": "Gerçekten çok açız.",
-                "image": "hungry.png"
+                "image": "hungry.jpeg"
                 },
                 {
                 "english": "Oh no, Mum’s mobile is broken!",
                 "turkish": "Ah hayır, annemin telefonu bozulmuş!",
-                "image": "broken_mobile.png"
+                "image": "broken_mobile.jpeg"
                 },
                 {
                 "english": "Where are my car keys?",
                 "turkish": "Araba anahtarlarım nerede?",
-                "image": "car_keys.png"
+                "image": "car_keys.jpeg"
                 },
                 {
                 "english": "There’s a mouse in the garage.",
                 "turkish": "Garajda bir fare var.",
-                "image": "mouse_in_garage.png"
+                "image": "mouse_in_garage.jpeg"
                 },
                 {
                 "english": "Who can solve this Maths problem?",
                 "turkish": "Bu matematik problemini kim çözebilir?",
-                "image": "maths_problem.png"
+                "image": "maths_problem.jpeg"
                 },
                 {
                 "english": "Are you sure Jim’s birthday is today?",
                 "turkish": "Jim’in doğum gününün bugün olduğundan emin misin?",
-                "image": "birthday.png"
+                "image": "birthday.jpeg"
                 },
                 {
                 "english": "I don’t want to watch TV.",
                 "turkish": "Televizyon izlemek istemiyorum.",
-                "image": "dont_watch_tv.png"
+                "image": "dont_watch_tv.jpeg"
                 },
                 {
                 "english": "Let’s play inside.",
                 "turkish": "Hadi içeride oynayalım.",
-                "image": "play_inside.png"
+                "image": "play_inside.jpeg"
                 },
                 {
                 "english": "Let’s not tell Mum.",
                 "turkish": "Hadi anneme söylemeyelim.",
-                "image": "not_tell_mum.png"
+                "image": "not_tell_mum.jpeg"
                 },
                 {
                 "english": "Let’s have a race.",
                 "turkish": "Hadi yarış yapalım.",
-                "image": "have_a_race.png"
+                "image": "have_a_race.jpeg"
                 },
                 {
                 "english": "Let’s wash Dad’s car.",
                 "turkish": "Hadi babanın arabasını yıkayalım.",
-                "image": "wash_car.png"
+                "image": "wash_car.jpeg"
                 },
                 {
                 "english": "Let’s not climb up the tree.",
                 "turkish": "Hadi ağaca tırmanmayalım.",
-                "image": "not_climb_tree.png"
+                "image": "not_climb_tree.jpeg"
                 },
                 {
                 "english": "Let’s not run so fast.",
                 "turkish": "Hadi çok hızlı koşmayalım.",
-                "image": "not_run_fast.png"
+                "image": "not_run_fast.jpeg"
                 }
             ]
               
