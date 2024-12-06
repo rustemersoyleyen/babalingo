@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>İngilizce Öğrenme Maceramız</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Ana Sayfa Bölümü -->
+        <div id="home-page">
+            <h1>İngilizce Öğrenme Maceramız</h1>
+            <div id="units-container" class="units-grid">
+                <!-- Üniteler dinamik olarak JavaScript ile yüklenecek -->
+            </div>
+        </div>
+
+        <!-- Ünite Egzersizleri Bölümü -->
+        <div id="exercises-page" style="display: none;">
+            <h1 id="unit-title">Ünite Egzersizleri</h1>
+            <div id="exercises-container" class="units-grid">
+                <!-- Egzersizler dinamik olarak JavaScript ile yüklenecek -->
+            </div>
+        </div>
+
+        <!-- Kelime Bulma Egzersizi -->
+        <div id="word-find-page" style="display: none;">
+            <div class="static-buttons">
+                <button id="back-button-find" class="back-button">Geri Dön</button>
+                <button id="language-toggle-find" class="language-toggle">İngilizce → Türkçe</button>
+            </div>
+            <h1>Kelime Bulma Egzersizi</h1>
+            <div>Puan: <span id="scoreValue">0</span></div>
+            <div class="wordContainer">
+                <img id="wordImage" class="wordImage" src="" alt="Kelime görseli">
+            </div>
+            <h2 id="wordDisplay"></h2>
+            <div id="optionsContainer" class="options"></div>
+            <div id="resultMessage"></div>
+        </div>
+
+        <!-- Kelime Yazma Egzersizi -->
+        <div id="word-write-page" style="display: none;">
+            <div class="static-buttons">
+                <button id="back-button-write" class="back-button">Geri Dön</button>
+                <button id="language-toggle-write" class="language-toggle">İngilizce → Türkçe</button>
+            </div>
+            <h1>Kelime Yazma Egzersizi</h1>
+            <div>
+                <span>Puan: </span><span id="scoreValueWrite">0</span>
+            </div>
+            <div class="wordContainer">
+                <img id="writeWordImage" class="wordImage" src="" alt="Kelime görseli">
+            </div>
+            <h2 id="writeWordDisplay"></h2>
+            <input type="text" id="writeAnswerInput" placeholder="Cevabınızı yazın...">
+            <div id="resultMessageWrite"></div>
+            <button id="checkWriteButton" disabled>Kontrol Et</button>
+        </div>
+
+        <!-- Cümle Oluşturma Egzersizi (sentenceComplete) -->
+        <!-- Eklendi -->
+        <div id="sentence-complete-page" style="display: none;">
+            <h1>Cümle Oluşturma Egzersizi</h1>
+            <div>
+                <span>Puan: </span><span id="scoreValueComplete">0</span>
+            </div>
+            
+            <!-- Cümleye ait görsel -->
+            <div id="sentenceImageContainer">
+                <img id="sentenceImage" src="" alt="Cümle Görseli" style="display: none;">
+            </div>
+        
+            <div class="sentence-container">
+                <div id="shuffledWords" class="shuffled-words">
+                    <!-- Karışık kelimeler buraya yazılacak -->
+                </div>
+            </div>
+            
+            <!-- Kullanıcı tarafından seçilen kelimeler buraya yazılacak -->
+            <div id="resultSentenceContainer" class="result-sentence-container"></div>
+        
+            <div id="resultMessageComplete"></div>
+            <button id="checkSentenceButton">Kontrol Et</button>
+            <button id="backButtonComplete">Geri Dön</button>
+        </div>       
+        
+
+        <!-- Diğer egzersiz sayfaları -->
+        <div id="sentence-format-page" style="display: none;">
+            <h1>Cümle Tamamlama Egzersizi</h1>
+            <div>
+                <span>Puan: </span><span id="scoreValueFormat">0</span>
+            </div>
+        
+            <!-- Cümleye ait görsel -->
+            <div id="sentenceImageContainerFormat">
+                <img id="sentenceImageFormat" src="" alt="Cümle Görseli">
+            </div>
+        
+            <!-- Cümle alanı -->
+            <div id="sentenceContainer" class="sentence-container">
+                <span id="sentenceText">Cümle burada görünecek...</span>
+            </div>
+        
+            <!-- Kullanıcı yanıtı -->
+            <div class="input-container">
+                <input type="text" id="missingWordInput" placeholder="Eksik kelimeyi yazın...">
+            </div>
+        
+            <div id="resultMessageFormat"></div>
+        
+            <!-- Butonlar -->
+            <button id="checkFormatButton">Kontrol Et</button>
+            <button id="backButtonFormat">Geri Dön</button>
+        </div>
+        
+        
+        
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
