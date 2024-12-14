@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // Kelime Bulma Egzersizi
-    function startWordFind(words) {
+    /*function startWordFind(words) {
         let score = 0;
         let currentWord = null;
         let remainingWords = [...words];
@@ -156,7 +156,85 @@ document.addEventListener('DOMContentLoaded', function () {
         };
 
         resetGame();
-    }
+    }*/
+        function startWordFind(words) {
+            let score = 0;
+            let currentWord = null;
+            let remainingWords = [...words];
+        
+            const scoreValue = document.getElementById('scoreValue');
+            const wordImage = document.getElementById('wordImage');
+            const wordDisplay = document.getElementById('wordDisplay');
+            const optionsContainer = document.getElementById('optionsContainer');
+            const resultMessage = document.getElementById('resultMessage');
+        
+            // Dil değiştirme butonunun etkinleştirilmesi
+            document.getElementById('language-toggle-find').onclick = () => {
+                languageDirection = languageDirection === 'en-tr' ? 'tr-en' : 'en-tr';
+                document.getElementById('language-toggle-find').textContent = languageDirection === 'en-tr' ? 'İngilizce → Türkçe' : 'Türkçe → İngilizce';
+        
+                resetGame();
+            };
+        
+            document.getElementById('back-button-find').onclick = () => showPage(pages.exercises);
+        
+            const resetGame = () => {
+                remainingWords = [...words];
+                score = 0; // Oyun sıfırlandığında skor da sıfırlanır
+                scoreValue.textContent = score;
+                loadNextWord();
+            };
+        
+            const loadNextWord = () => {
+                if (remainingWords.length === 0) {
+                    resultMessage.textContent = 'Tüm kelimeler tamamlandı!';
+                    return;
+                }
+        
+                // Yeni kelime seçilir
+                currentWord = remainingWords.splice(Math.floor(Math.random() * remainingWords.length), 1)[0];
+                wordImage.src = `img/words/${currentWord.image}`;
+                wordDisplay.textContent = languageDirection === 'en-tr' ? currentWord.english : currentWord.turkish;
+        
+                // Sesli okuma butonu
+                setupSpeechSynthesis(wordDisplay.textContent, languageDirection === 'en-tr' ? 'en-US' : 'tr-TR', 'wordDisplay');
+        
+                // Şıklar oluşturulur
+                const options = [currentWord, ...words.filter(w => w !== currentWord).sort(() => Math.random() - 0.5).slice(0, 3)];
+        
+                // Rastgele sıralama yapılır
+                const shuffledOptions = options.sort(() => Math.random() - 0.5);
+        
+                optionsContainer.innerHTML = '';
+                shuffledOptions.forEach(option => {
+                    const btn = document.createElement('button');
+                    btn.classList.add('option');
+                    btn.textContent = languageDirection === 'en-tr' ? option.turkish : option.english;
+                    btn.addEventListener('click', () => {
+                        const correct = languageDirection === 'en-tr' ? currentWord.turkish : currentWord.english;
+                        const isCorrect = btn.textContent === correct;
+                        btn.classList.add(isCorrect ? 'correct' : 'wrong');
+                        score += isCorrect ? 5 : -2;
+                        scoreValue.textContent = score;
+        
+                        if (isCorrect) playCongratulationSound();
+                        else {
+                            playErrorSound();
+                            resultMessage.textContent = `Doğru Cevap: ${correct}`;
+                        }
+        
+                        setTimeout(() => {
+                            resultMessage.textContent = '';
+                            loadNextWord();
+                        }, 1000);
+                    });
+                    optionsContainer.appendChild(btn);
+                });
+            };
+        
+            resetGame();
+        }
+        
 
     // Kelime Yazma Egzersizi
     function startWordWrite(words) {

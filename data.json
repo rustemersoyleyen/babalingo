@@ -451,6 +451,12 @@
                 {"english": "take photos", "turkish": "fotoğraf çekmek", "image": "takephotos.jpeg"},
                 {"english": "tic-tac-toe", "turkish": "üç taş oyunu", "image": "tic-tac-toe.jpeg"},
                 {"english": "video / computer games", "turkish": "bilgisayar oyunları", "image": "videocomputergames.jpeg"}               
+            ],
+            "sentences": [
+                {"english": "table tennis", "turkish": "masa tenisi", "image": "tabletennis.jpeg"},
+                {"english": "take photos", "turkish": "fotoğraf çekmek", "image": "takephotos.jpeg"},
+                {"english": "tic-tac-toe", "turkish": "üç taş oyunu", "image": "tic-tac-toe.jpeg"},
+                {"english": "video / computer games", "turkish": "bilgisayar oyunları", "image": "videocomputergames.jpeg"}   
             ]
         }         
     ]
