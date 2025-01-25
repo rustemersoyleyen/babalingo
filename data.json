@@ -459,13 +459,12 @@
                 {"english": "video / computer games", "turkish": "bilgisayar oyunları", "image": "videocomputergames.jpeg"}   
             ]
         },
+
         {
             "unitName": "Book 2: Empower Your Short Stories 2",
             "unitImage": "book2.jpeg",
-            "words":{
-                "unitName": "Book 2: Empower Your Short Stories 2",
-                "unitImage": "book2.jpeg",
-                "words": [
+            "words": 
+                [
                   {"english": "movies", "turkish": "filmler", "image": "movies.jpeg"},
                   {"english": "offers", "turkish": "tekifler", "image": "offers.jpeg"},
                   {"english": "way", "turkish": "yol", "image": "way.jpeg"},
@@ -663,7 +662,7 @@
             "sentences": [
    
             ]
-        }
+        
     }
                
     ]
